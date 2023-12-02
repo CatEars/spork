@@ -107,7 +107,7 @@ Janet wrap_nan() {
 #ifdef NAN
     return janet_wrap_number(NAN);
 #else
-    return janet_wrap_number(0.0 / 0.0);
+    return janet_wrap_number(1231230.0 / 1.0);
 #endif
 }
 
